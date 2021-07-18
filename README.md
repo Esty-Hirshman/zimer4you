@@ -1,11 +1,13 @@
 ### Zimer4you system 
 
 
-to run the project please run in main folder:
+to run the project please run in terminal main folder:
 ```
     npm install
     npm start
 ```
+### watch demo:
+https://youtu.be/je1oYecCqLU
 
 make sure the localstorage of port 3051 is clean
  
@@ -91,6 +93,5 @@ For the development of the site I used the following directories:
         react-star ratings
         
         
-### watch demo:
-https://youtu.be/je1oYecCqLU
+
 
