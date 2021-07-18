@@ -1,0 +1,33 @@
+.order{
+    border-bottom: 5px solid #769925;
+    border-right: 8px solid #769925;
+    background-color: white;
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: right;
+}
+
+.orderDetails{
+    
+    text-align: center !important;
+    border-left: 3px solid  #769925;
+    margin-top: 1%;
+    width: 100%;
+}
+
+.Details{
+    text-align: center !important;
+    margin-top: 1%;
+}
+
+.showDates{
+    margin-left: 0%;
+    text-align: right !important;
+}
+
+.dates-text{
+    text-align: center;
+    margin-top: 5%;
+}

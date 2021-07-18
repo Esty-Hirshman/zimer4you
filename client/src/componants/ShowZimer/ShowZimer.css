@@ -1,0 +1,96 @@
+.top {
+  margin-top: 6%;
+  height: 40%;
+  background-color: rgb(74, 151, 11, 0.5);
+  color: white;
+  align-content: center;
+  font-family: FbAlfi-Bold;
+}
+.showImg {
+  height: 100%;
+  margin-right: 30%;
+  background-color: rgb(74, 151, 11, 0.2);
+}
+.spase {
+  margin-top: 1%;
+}
+
+#zimerMap {
+  height: 500px;
+}
+
+.googlemap {
+  width: 50%;
+  height: 50%;
+}
+
+.react-calendar {
+  left: 55%;
+}
+
+.col-1 {
+  width: 6%;
+}
+.goto {
+  color: #769925;
+  font-size: 1.1vw;
+  background-color: white;
+  width: 100%;
+  margin-top: 5%;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+  text-align: center !important;
+}
+
+.image-gallery-swipe {
+  margin-top: 2%;
+}
+
+.contact {
+  border: none;
+  background-color: #769925;
+  padding: 4px 13px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 2%;
+}
+
+.contact:hover {
+  font-weight: bolder;
+  background-color: #769925;
+}
+.showZimer-guestBook {
+  background-color: rgb(74, 151, 11, 0.2);
+  margin-bottom: 2%;
+  margin-left: 1%;
+}
+
+.ShowZimer-guestBookText {
+  font-family: FbAlfi-Black;
+  font-size: 2vw;
+  padding-top: 2%;
+  display: inline-block;
+}
+
+.showZimer-addComment {
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  border: 5px solid #769925;
+  margin-right: 50%;
+  font-family: FbAlfi-Bold;
+  cursor: pointer;
+}
+
+.showZimer-addComment:hover {
+  background-color: #769925;
+}
+
+.show-zimer-container {
+  background-color: rgb(74, 151, 11, 0.2);
+}
+
+.map-text {
+  text-align: center;
+  margin-top: 2%;
+  height: 30px;
+}

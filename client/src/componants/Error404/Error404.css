@@ -1,0 +1,11 @@
+.errorImg{
+    height: 30vw;
+}
+.errorButtom{
+    border-radius: 30px;
+    background-color:  #769925;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 50%);
+    color: white;
+    border: 0px;
+    padding: 1% 1%;
+}

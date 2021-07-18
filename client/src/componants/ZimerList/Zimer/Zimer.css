@@ -1,0 +1,58 @@
+.zimerImg{
+    
+    height: 15vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 1% 5%;
+    
+}
+
+.daFooters{
+    width: 90%;
+    background-color: #769925;
+    margin-bottom: 3%;
+    color: white;
+    border: none;
+
+    
+}
+
+.zimer{
+    margin-top: 8%; 
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 30%);
+}
+
+
+h3,h4,p,link{
+    text-decoration:none !important;
+}
+
+.moreDeFooters{
+    height: 15vw;
+    color: #769925;
+    text-align:right;
+    padding-right: 20%;
+    padding-left: 2%;
+}
+
+.love{
+    width: 40%;
+    height: 15%;
+     border:none;
+    margin-right: 62%;
+    background-color:  rgba(255, 4, 4, 0);
+    font-weight: 600;
+    
+}
+
+.love:hover{
+    background-image:none !important;
+    color: red !important;
+    text-decoration: underline !important;
+    
+
+}
+

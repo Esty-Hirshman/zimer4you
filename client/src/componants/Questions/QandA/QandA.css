@@ -1,0 +1,30 @@
+.question{
+    color: #769925;
+    
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.questionContainer{
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+    text-align:right;
+    padding-right: 2%;
+    margin-top: 1%;
+    
+}
+.green{
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 30%);
+    background-color: #769925 ;
+    margin-top: 1%;
+    text-align: center;
+    padding-top: 3%;
+    margin-right: 5%;
+}
+
+
+.answer{
+    text-align: right;
+    width: 55%;
+    margin-right: 10%;
+}

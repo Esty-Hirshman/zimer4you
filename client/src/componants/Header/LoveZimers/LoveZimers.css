@@ -1,0 +1,28 @@
+.remove{
+    background-color:'#77b300';
+    font-size:"1vw";
+    margin-top:"100px";
+    color:white; 
+    border-radius:'5px';
+    
+}
+
+.clean{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-bottom: 12px;
+    background: #769925;
+    padding: 4px 13px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9vw !important;
+}
+
+.clean:hover{
+    background: #769925;
+    color: black;
+}
+
+.space{
+    height: 10px;
+}

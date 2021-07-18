@@ -1,0 +1,26 @@
+.commentText{
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+    text-align:right;
+    padding-right: 2%;
+    margin-top: 1%;
+    
+}
+
+.commen-icon{
+    padding-left: 3%;
+    padding-right: 2%;
+    width: 16px;
+    display: inline-block;
+    color: #769925;
+}
+
+.commen-contaner{
+    border-bottom: 5px solid #769925;
+    background-color: white;
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: right;
+
+}

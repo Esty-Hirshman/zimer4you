@@ -1,0 +1,57 @@
+.newcomment-ok {
+  cursor: pointer;
+}
+.newcomment-ok:hover {
+  color: #769925;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+  width: 87%;
+}
+‏ textarea::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+  display: block !important;
+  margin-right: 0% !important;
+  margin-left: auto !important;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+ 
+  background-color: #9bce6c;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+textarea:focus{
+    outline: white !important;
+
+}
+
+textarea{
+    border: 3px solid rgb(127, 180, 21);
+}
+
+.textArea{
+  max-height: 350px;
+  overflow: auto;
+}
+
+
+textArea::-webkit-scrollbar {
+  width: 15px;
+  background-color: #dadada;
+}
+
+textArea::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #999999;
+  cursor: pointer;
+}

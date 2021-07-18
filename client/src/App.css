@@ -1,0 +1,88 @@
+ *{
+   direction: rtl;
+   font-size: 1.3vw;
+   font-family: FbAlfi-Regular;
+ }
+
+.App {
+  text-align: center;
+  background-color: rgb(233, 230, 230,0.3);
+  margin-top: 5.7%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input:focus{
+  outline:rgb(255, 255, 255) !important;
+}
+
+.container1 {
+  direction: rtl;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 490px;
+  background-color: rgba(255, 255, 255, 0.623);
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px;
+  padding: 30px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.container1 h4 {
+  text-align: center;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #dadada;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(151, 144, 144, 0.1);
+  background-color: #999999;
+}
+.div-chat-app {
+  position: fixed;
+  bottom: 1vw;
+  margin-right: 0vw;
+  
+}

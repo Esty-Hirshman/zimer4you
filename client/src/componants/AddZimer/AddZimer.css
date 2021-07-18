@@ -1,0 +1,79 @@
+.addContainer {
+  height: 100%;
+  margin-top: 4%;
+  padding-bottom: 2%;
+}
+
+.divStyle {
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 50%);
+}
+.addbutton {
+  border: none;
+  border-radius: 0px;
+  background-color: #82a30c;
+  font-size: 1.2vw;
+  padding: 1% 1%;
+  margin-top: 3%;
+  margin-right: 0%;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+  width: 30%;
+}
+.addbutton:hover {
+  color: black;
+  width: 31%;
+}
+
+.images {
+  border: none;
+  border-radius: 0px;
+  background-color: #769925;
+  font-size: 1.1vw;
+  padding: 3px 13px;
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+}
+
+.images:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.paypal-button-color-gold {
+  background: #769925 !important ;
+}
+
+.showImgUpload {
+  height: 40%;
+  width: 40%;
+}
+
+.payment {
+  color: #769925;
+  margin-top: 3%;
+}
+
+.paymentButton {
+  border: none;
+  border-radius: 0px;
+  background-color: #769925;
+  font-size: 1.2vw;
+  padding: 1% 1%;
+  margin-top: 3%;
+  margin-right: 0%;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+  width: 80%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.comp-addZimer {
+  margin-top: 5%;
+}
+

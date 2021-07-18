@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "FbAlfi-Regular";
+  src: local("FbAlfi-Regular"),
+    url("./asset/fonts/FbAlfi-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FbAlfi-Bold";
+  src: local("FbAlfi-Bold"), url("./asset/fonts/FbAlfi-Bold.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FbAlfi-Black";
+  src: local("FbAlfi-Black"),
+    url("./asset/fonts/FbAlfi-Black.otf") format("truetype");
+  font-weight: normal;
+}

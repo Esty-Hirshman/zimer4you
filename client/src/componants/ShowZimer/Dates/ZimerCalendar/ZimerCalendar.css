@@ -1,0 +1,28 @@
+.react-calendar__month-view__weekdays {
+    color: rgba(67, 146, 22);
+  }
+
+.react-calendar__tile--now{
+    background-color: rgba(90, 156, 14, 0.5);
+    
+}
+
+.modal-title{
+    text-align: center;
+    display:unset;
+}
+
+.react-calendar{
+    margin-right: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.calendar-div{
+    max-height: 35vw;
+}
+
+.dates-buttom{
+    display:inline-block;
+    margin: 1% 1% !important;
+}

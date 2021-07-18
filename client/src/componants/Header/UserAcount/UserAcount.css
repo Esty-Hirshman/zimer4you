@@ -1,0 +1,48 @@
+.acountButton{
+    background-color: #769925;
+    padding: 3px 13px;
+    align-self: center;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    font-size:1vw;
+}
+
+.popover-header{
+    background-color:#769925 ;
+    color: white;
+    text-align: center;
+}
+
+.popover-body{
+    text-align: center;
+    background-color: rgb(224, 224, 224,0.3);
+    padding: 10% 10%;
+    width: 100%;
+    font-size: 1.1vw;
+}
+
+.popover{
+    max-width: 300px !important;
+    width: 90% !important;
+    
+}
+
+.user{
+    font-size: 5vw;
+    color: #769925;
+}
+
+.deFooters{
+    color:#769925 ;
+    display: inline;
+}
+
+.changePassword{
+    color:#769925;
+}
+.changePassword:hover{
+    color: rgb(247, 110, 110);
+    font-size: 1.2vw;
+    cursor: pointer;
+}

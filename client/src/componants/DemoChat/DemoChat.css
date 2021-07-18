@@ -1,0 +1,261 @@
+.chatContainer {
+  height: 25vw;
+  width: 15vw;
+  background-color: white;
+}
+.logoChat {
+  width: 20%;
+  right: 0;
+}
+
+
+
+.chatInput{
+    
+  display: inline-block;
+
+}
+
+.chatInput:checked{
+    border: 6px solid black;
+}
+.send{
+    display: inline-block;
+}
+
+
+.quesna {
+    display: inline-block;
+    width: 95%;
+}
+
+.btnaddques {
+    display: inline-block;
+    width: 5%;
+    writing-mode: vertical-rl !important;
+    text-orientation: mixed !important;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(115, 160, 57); 
+}
+
+.btnaddques:hover{
+   filter: brightness(90%);
+}
+
+path {
+    font-size: 40px;
+}
+
+.addques {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* border-right: 3px solid black; */
+}
+
+.allques {
+    font-family: "FbReformaNarrow Regular";
+    background-color: white !important;
+    padding-right: 4vw;
+}
+
+.textareaques {
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 4px 6px 0 rgb(0 0 0 / 20%);
+    border: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 8%;
+    font-size: 20px;
+    margin-bottom: 8%;
+    font-family: "FbReformaNarrow Medium";
+}
+
+.addqueshed {
+    font-size: 30px;
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    font-family: "FbReformaNarrow Regular";
+}
+
+
+.chatButton{
+  cursor: pointer;
+}
+
+.send:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+.queshed {
+    text-align: right;
+    margin-bottom: 2% !important;
+    font-size: 40px;
+    color: black;
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 8%;
+}
+
+.div-button-chat {
+  background-color: inherit;
+  z-index: 99;
+}
+
+.button-chat {
+  background-color: inherit;
+  font-size: 3vw;
+  color: rgb(0, 0, 0) !important;
+  z-index: 99;
+  background-color: rgb(128, 167, 57);
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
+}
+
+.button-chat:hover {
+  filter: brightness(90%);
+}
+
+.modal-chat {
+  z-index: 99 !important;
+}
+
+.input-send-chat {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid  rgba(111, 148, 42);
+}
+.input-send-chat:focus{
+  outline: none;
+}
+
+.chat-zimer {
+  width: 70%;
+  background-color: rgba(111, 148, 42, 0.507);
+  margin-bottom: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  text-align: right;
+}
+
+.chat-user {
+  text-align: left;
+  width: 70%;
+  margin-right: 30%;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+.p-value-guide {
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  margin-bottom: 0px !important;
+}
+
+.p-value-bicy {
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  margin-bottom: 0px !important;
+}
+
+.pbicy2 {
+  display: inline-block !important;
+  font-size: 1vw;
+  margin-bottom: 0px !important;
+  text-align: right;
+  line-height: 1vw;
+}
+
+.pbicy1 {
+  display: inline-block !important;
+  font-size: 1vw;
+  margin-bottom: 0px !important;
+  text-align: right;
+  line-height: 1vw;
+}
+
+.pbicy3 {
+  display: inline-block !important;
+  font-size: 1vw;
+  margin-bottom: 0px !important;
+  padding-right: 10px;
+ line-height: 1vw;
+}
+
+.pguide1 {
+  display: inline-block !important;
+  font-size: 0.9vw;
+  margin-bottom: 0px !important;
+  line-height: 0.9vw;
+}
+
+.pguide2 {
+  display: inline-block !important;
+  font-size: 0.9vw;
+  margin-bottom: 0px !important;
+  line-height: 0.9vw;
+ 
+}
+
+.pguide3 {
+  display: inline-block !important;
+  font-size: 0.9vw;
+  margin-bottom: 0px !important;
+  padding-right: 1%;
+  padding-right: 10px;
+  line-height: 0.9vw;
+}
+
+.div-bicy-det {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  margin-top: 5%;
+}
+
+.div-guide-det {
+  border-top: 1px solid black;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-to-det-bicy {
+  display: inline-block;
+  text-align: left;
+}
+
+.div-to-det-guide {
+  display: inline-block;
+  text-align: left;
+}
+
+.all-chat{
+  z-index: 99 !important;
+  max-height: 30vw !important;
+  min-height: 20vw !important;
+  overflow: auto;
+}
+
+.show-modal{
+  margin-left: 0 !important;
+}
+
+
+.all-chat::-webkit-scrollbar {
+  width: 15px;
+  background-color: #dadada;
+}
+
+.all-chat::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #5a7a2777;
+}

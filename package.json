@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "cd server && npm start",
+        "server1": "cd server && npm install",
+        "client1": "cd client && npm install",
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "install": "concurrently \"npm run server1\" \"npm run client1\""
+    },
+    "dependencies": {
+        "concurrently": "^6.1.0",
+        "react-icons": "^4.2.0",
+        "react-router-dom": "^5.2.0"
+    }
+}

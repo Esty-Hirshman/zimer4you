@@ -1,0 +1,26 @@
+.logoContainer{
+    background-image: url('../../asset/imgs/bg.png');
+    align-content:flex-start;
+    margin-top: 0;
+    background-size:contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.aboutTop{
+    height: 40px;
+    background-color: rgb(123, 148, 9);
+    color: rgb(253, 250, 250);
+    opacity: 0.9;
+    align-content: center center;
+    padding-top: 8px;
+}
+.aboutText{
+    margin-right: 5%;
+    text-align: right;
+    color: rgb(3, 3, 3);
+    font-weight: 700;
+    font-size: 1.1vw;
+    
+}

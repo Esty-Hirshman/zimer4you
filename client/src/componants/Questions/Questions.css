@@ -1,0 +1,24 @@
+.chatButton{
+    bottom:0%;
+    left: 0%;
+    text-align: left;
+    padding-left: 5%;
+    width: 10%;
+    border-radius: 80px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+    background-color: white;
+    margin-right: 86%;
+    margin-top: 1%;
+    margin-left: 4%;
+    padding: 2% 2%;
+    
+}
+
+.popover-body{
+   max-width: 400px !important;
+    background-color: white;
+    padding-top: 0%;
+}
+.topChat{
+    margin-bottom: 0;
+}
