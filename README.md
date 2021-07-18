@@ -7,7 +7,7 @@ to run the project please run in terminal main folder:
     npm start
 ```
 ### watch demo:
-https://youtu.be/je1oYecCqLU
+https://youtu.be/sTDEAulN4-s
 
 make sure the localstorage of port 3051 is clean
  
